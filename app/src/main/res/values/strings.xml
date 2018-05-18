@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Goals</string>
+    <string name="menu_add">Add Goal</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_editGoal">Edit Goal</string>
+    <string name="menu_addMustDo">Add Must Do</string>
+    <string name="menu_deleteGoal">Delete Goal</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+</resources>

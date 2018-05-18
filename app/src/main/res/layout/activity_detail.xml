@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harleyhihew.mygoalsdemo.DetailActivity">
+
+
+    <TextView
+        android:id="@+id/goalDetail_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:padding="20dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="test"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30dp" />
+
+
+    <ProgressBar
+        android:id="@+id/pDetai_progessBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:id="@+id/percent_detailtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="45dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="50%"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/mustDo_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/goalDetail_textView"
+        android:background="#ffffff" />
+
+</RelativeLayout>
